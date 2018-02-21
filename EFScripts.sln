@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26608.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web", "WebApplication1\web.csproj", "{CED32284-4AF9-414C-BDE4-1B54B0A80131}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFMigrations", "EFMigrations\EFMigrations.csproj", "{2B3BA78F-FA2F-433A-A7CC-28D4983636C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFModels", "EFModels\EFModels.csproj", "{607A2AF0-82D4-41B0-ACC4-298EE34486E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{FF1E8F28-F7EB-437E-8B15-F90A85953CE5}"
+	ProjectSection(SolutionItems) = preProject
+		NuGet.Config = NuGet.Config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CED32284-4AF9-414C-BDE4-1B54B0A80131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CED32284-4AF9-414C-BDE4-1B54B0A80131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CED32284-4AF9-414C-BDE4-1B54B0A80131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CED32284-4AF9-414C-BDE4-1B54B0A80131}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B3BA78F-FA2F-433A-A7CC-28D4983636C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B3BA78F-FA2F-433A-A7CC-28D4983636C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B3BA78F-FA2F-433A-A7CC-28D4983636C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B3BA78F-FA2F-433A-A7CC-28D4983636C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{607A2AF0-82D4-41B0-ACC4-298EE34486E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{607A2AF0-82D4-41B0-ACC4-298EE34486E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{607A2AF0-82D4-41B0-ACC4-298EE34486E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{607A2AF0-82D4-41B0-ACC4-298EE34486E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE239D05-43A2-412E-8E33-A42836ECBA45}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://bdevgrp.visualstudio.com/
+		SccProjectUniqueName0 = EFMigrations\\EFMigrations.csproj
+		SccProjectName0 = EFMigrations
+		SccLocalPath0 = EFMigrations
+		SccProjectUniqueName1 = EFModels\\EFModels.csproj
+		SccProjectName1 = EFModels
+		SccLocalPath1 = EFModels
+		SccProjectUniqueName2 = WebApplication1\\web.csproj
+		SccProjectName2 = WebApplication1
+		SccLocalPath2 = WebApplication1
+		SccLocalPath3 = .
+	EndGlobalSection
+EndGlobal
